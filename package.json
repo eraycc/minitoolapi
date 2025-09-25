@@ -1,12 +1,11 @@
 {
-  "name": "minitoolai-proxy",
+  "name": "minitoolai",
   "version": "1.0.0",
-  "description": "A Node.js proxy server for MiniToolAI models with OpenAI-compatible API",
+  "description": "A Node.js proxy server for MiniToolAI",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "ai",
@@ -15,7 +14,7 @@
     "chatgpt",
     "api"
   ],
-  "author": "Your Name",
+  "author": "minitoolapi",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
